@@ -34,21 +34,6 @@ list-style-type: none;
   color: #ffffff;
   background-color: #56d4c2;
   border: none;
-  display: flex;
-        flex-flow: row wrap;
-
-}
-
-.article{
-  max-width: 282px;
-  max-height: 163px;
-  box-shadow: 0px 8px 16px #5dd3d829;
-  border-radius: 8px;
-}
-
-.cardsct{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  width: 50%;
 
 }
 
@@ -66,3 +51,21 @@ list-style-type: none;
   padding-top: 45px;
   width: 80%;
 }
+
+.cardSection {
+  grid-column: 1/6;
+  grid-row: 3;
+  grid-gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+
+  article{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+
+  }
+
+
